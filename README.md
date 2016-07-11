@@ -21,7 +21,7 @@ The script ran every five minutes, but there are some gaps in the viewer counts 
 
 ### AGDQ14
 
-Donation count added, interval changed to one minute. I don't *think* the script has handling failures gracefully yet so there might be gaps in the viewers list (i.e there's not a record for every minute).
+Donation count added, interval changed to one minute. I don't *think* the script handled failures gracefully yet so there might be gaps in the viewers list (i.e there's not a record for every minute).
 
     {
       "games": [
@@ -40,7 +40,7 @@ Same as AGDQ14, but now more resilient, so there should be nulls where the scrip
 
 ### AGDQ15
 
-Same as SGDQ14 but with the runner(s) name. As an aside, this file is called agdq15-scraped because the donation totals were scraped from the tracker after the marathon ended as my original stats file had a lot of gaps and was entirely missing the final push.
+Same as SGDQ14 but with the runner(s) name. As an aside, this file is called agdq15-scraped because the donation totals were scraped from the tracker after the marathon ended . My original stats file had a lot of gaps and was entirely missing the final push.
 
     {
       "games": [
