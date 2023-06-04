@@ -6,7 +6,7 @@ The raw data collected by my various [gdq trackers](https://gdq.alligatr.co.uk).
 
 Each file has this shape:
 
-```json
+```
 {
   "games": [
     [start_timestamp, game_name, runners, category],
