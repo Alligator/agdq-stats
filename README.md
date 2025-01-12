@@ -8,6 +8,8 @@ Each file has this shape:
 
 ```
 {
+  "marathon_name": "name here",
+  "marathon_type": "gdq",
   "games": [
     [start_timestamp, game_name, runners, category],
     ...
@@ -18,6 +20,8 @@ Each file has this shape:
   ]
 }
 ```
+
+`marathon_type` is `gdq` for AGDQ and SGDQ, `ff` for Frame Fatales, and `gdqx` for GDQx.
 
 More properties were added over time:
 - The donation count was added in AGDQ 14
