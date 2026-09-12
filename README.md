@@ -15,7 +15,7 @@ Each file has this shape:
     ...
   ],
   "viewers": [
-    [timestamp, viewer_count, donation_count],
+    [timestamp, twitch_viewer_count, donation_count, youtube_viewer_count],
     ...
   ]
 }
@@ -23,7 +23,10 @@ Each file has this shape:
 
 `marathon_type` is `gdq` for AGDQ and SGDQ, `ff` for Frame Fatales, and `gdqx` for GDQx.
 
+The `viewers` array is missing the `youtube_viewer_count` element until partway through AGDQ 26.
+
 More properties were added over time:
 - The donation count was added in AGDQ 14
 - The runners were added in AGDQ 15
 - The category was added in SGDQ 20
+- The YouTube viewer count was added in AGDQ26
